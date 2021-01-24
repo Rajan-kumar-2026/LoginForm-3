@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col-4 mt-4">
+            <div class="form-group">
+                <label for="">Register <span class="abc">*</span></label>
+                <input type="email" class="form-control" placeholder="Email" [(ngModel)]='email'>&nbsp;&nbsp;
+                <input type="password" class="form-control" placeholder="Password" [(ngModel)]='password'>&nbsp;&nbsp;
+                <input type="password" class="form-control" placeholder="ConfirmPassword" [(ngModel)]='confirmPassword'>
+            </div>
+            <button (click)='register()'>Submit</button>
+        </div>
+    </div>
+</div>
