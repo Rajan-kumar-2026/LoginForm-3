@@ -1,0 +1,7 @@
+.head {
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    background-color: rgb(219, 114, 114);
+    align-items: center;
+}

@@ -1,5 +1,10 @@
-<a routerLink='login' *ngIf='!isLoggedIn'>Login</a>
-<a routerLink='register' *ngIf='!isLoggedIn'>Register</a>
-<a  *ngIf='isLoggedIn' (click)='logOut()'>LogOut</a>
+<div class="head">
+    <a routerLink=''>Home</a>
+    <a routerLink='profile'>Profile</a>
+    <a routerLink='search'>Search</a>
+    <a routerLink='login' *ngIf='!isLoggedIn'>Login</a>
+    <a routerLink='register' *ngIf='!isLoggedIn'>Register</a>
+    <a  *ngIf='isLoggedIn' (click)='logOut()'>LogOut</a>
+</div>
 
 <router-outlet></router-outlet>
